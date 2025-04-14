@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>재구의 개인 홈페이지</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <nav class="navbar container">
+      <div class="logo"><a href="#home">재구의 홈</a></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <div class="container">
+      <h1>3년차 소프트웨어 엔지니어, 재구</h1>
+      <p>MBTI: INFP / 주력 언어: C++</p>
+      <button id="introBtn">한마디 해볼까요?</button>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        안녕하세요! 저는 3년차 소프트웨어 엔지니어 재구입니다.
+        창의력 넘치는 INFP로서 C++를 주력 언어로 다양한 프로젝트에 도전하고 있어요.
+        IT, 오픈소스, 그리고 최신 기술 트렌드에 늘 관심이 많습니다.
+      </p>
+      <ul class="profile-details">
+        <li><strong>MBTI:</strong> INFP</li>
+        <li><strong>주요 언어:</strong> C++</li>
+        <li><strong>경력:</strong> 3년차 소프트웨어 엔지니어</li>
+        <li><strong>관심 분야:</strong> AI, 클라우드, IoT, 오픈소스</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-container">
+         <article class="project">
+            <img src="images/game1.jpg" alt="프로젝트 예시 1">
+            <h3>프로젝트 예시 1</h3>
+            <p>핵심 기술: C++, Python</p>
+            <a href="https://github.com" target="_blank">자세히 보기</a>
+         </article>
+         <article class="project">
+            <img src="images/game2.jpg" alt="프로젝트 예시 2">
+            <h3>프로젝트 예시 2</h3>
+            <p>핵심 기술: C++, JavaScript</p>
+            <a href="https://github.com" target="_blank">자세히 보기</a>
+         </article>
+         <!-- 필요시 더 많은 프로젝트 항목 추가 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="section blog">
+    <div class="container">
+      <h2>Blog</h2>
+      <div class="blog-container">
+         <article class="blog-post">
+            <h3>첫 번째 포스트</h3>
+            <p>새로운 기술 동향과 개발자로서의 경험을 공유합니다.</p>
+            <a href="#">계속 읽기</a>
+         </article>
+         <article class="blog-post">
+            <h3>두 번째 포스트</h3>
+            <p>프로젝트 진행 과정에서 생긴 에피소드와 노하우를 담았습니다.</p>
+            <a href="#">계속 읽기</a>
+         </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contactForm">
+         <label for="name">이름</label>
+         <input type="text" id="name" name="name" placeholder="이름을 입력하세요" required>
+         
+         <label for="email">이메일</label>
+         <input type="email" id="email" name="email" placeholder="이메일을 입력하세요" required>
+         
+         <label for="message">메시지</label>
+         <textarea id="message" name="message" placeholder="메시지를 입력하세요" required></textarea>
+         
+         <button type="submit">전송하기</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 재구. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
